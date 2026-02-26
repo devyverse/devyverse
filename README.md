@@ -9,7 +9,13 @@
 </p>
 
 ---
-
+| Feature | Prerelease | Release target |
+|:---|:---:|---:|
+| Calculator | No | 10/27/2025 |
+| Graphs | Yes | 8/18/2025 |
+| Mail | No | 2/16/2025 |
+| Tables | Yes | 10/27/2025 |
+| Search | No | 1/5/2026 |   
 <p align="center">
   <img src="https://img.shields.io/badge/Rust-Backend-05070d?style=for-the-badge&logo=rust&logoColor=7df9ff" />
  <img alt="Static Badge" src="https://img.shields.io/badge/FRONDEND%20-black?style=for-the-badge&logo=css&logoColor=%23663399&logoSize=auto&label=CSS&labelColor=white&color=black">
