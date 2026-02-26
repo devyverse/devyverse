@@ -12,13 +12,13 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Rust-Backend-05070d?style=for-the-badge&logo=rust&logoColor=7df9ff" />
-  <img src="https://img.shields.io/badge/Css-Frondend%20-%20%23000000?style=for-the-badge&logo=CSS&logoColor=%23ffffff&logoSize=auto&label=CSS&labelColor=%23663399&color=black
+  <img src="https://img.shields.io/badge/FRONDEND%20-%20%23000000?style=for-the-badge&logo=CSS&logoColor=%23ffffff&logoSize=auto&label=CSS&labelColor=%23663399&color=black
 "/>
 
 
   <img src="https://img.shields.io/badge/PostgreSQL-Database-05070d?style=for-the-badge&logo=postgresql&logoColor=7df9ff" />
 </p>
-![Static Badge](https://img.shields.io/badge/CSS-%20%23663399?style=for-the-badge&logo=css)
+
 <p align="center">
   <img src="https://github.com/devyverse/devyverse/actions/workflows/build.yml/badge.svg" />
   <img src="https://github.com/devyverse/devyverse/actions/workflows/tests.yml/badge.svg" />
