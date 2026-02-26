@@ -12,7 +12,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Rust-Backend-05070d?style=for-the-badge&logo=rust&logoColor=7df9ff" />
-  <img src="https://img.shields.io/badge/CSS-%20%23663399?style=for-the-badge&logo=css" />
+  <img src="https://img.shields.iobadgeFRONDEND%20%20%23000000style=forthebadge&logo=CSS&logoColor=%23ffffff&logoSize=auto&label=CSS&labelColor=%23663399&color=black" />
 
 
   <img src="https://img.shields.io/badge/PostgreSQL-Database-05070d?style=for-the-badge&logo=postgresql&logoColor=7df9ff" />
