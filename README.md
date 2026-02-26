@@ -1,8 +1,9 @@
 <!-- ULTRA DARK • NEON FUTURISTIC • DEVYVERSE PROFILE -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/devyverse/devyverse/main/assets/devyverse-logo.png" height="150" />
+  <img src="./assets/banner.png" alt="Devyverse Banner" width="100%" />
 </p>
+
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=30&duration=2500&pause=700&color=7DF9FF&center=true&vCenter=true&width=650&lines=Devyverse+System+Booting...;Loading+Neon+Core...;Build+with+clarity.;Secure+with+intention.;Rust+Backend+Activated.;Web+Security+%E2%9A%A1+Architecture+Online." />
