@@ -12,8 +12,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Rust-Backend-05070d?style=for-the-badge&logo=rust&logoColor=7df9ff" />
-  <img src="https://img.shields.io/badge/FRONDEND%20-%20%23000000?style=for-the-badge&logo=CSS&logoColor=%23ffffff&logoSize=auto&label=CSS&labelColor=%23663399&color=black
-"/>
+ <img alt="Static Badge" src="https://img.shields.io/badge/FRONDEND%20-black?style=for-the-badge&logo=css&logoColor=%23663399&logoSize=auto&label=CSS&labelColor=white&color=black">
+
 
 
   <img src="https://img.shields.io/badge/PostgreSQL-Database-05070d?style=for-the-badge&logo=postgresql&logoColor=7df9ff" />
