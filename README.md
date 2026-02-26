@@ -10,14 +10,12 @@
 </p>
 
 ---
-# TECHNOLOGIES
----
-
+## TECHNOLOGIES
 
 | **FRONDEND** | **BACKEND** | **DATABASE** | **FRAMEWORKS** | **AUTRES** |
 |:--------------|:-------------:|--------------:|--------------:|--------------:|
 |![Static Badge](https://img.shields.io/badge/CSS3%20-%20%23663399?style=for-the-badge&logo=css&logoColor=%23663399&logoSize=auto&labelColor=white&color=black)|![Static Badge](https://img.shields.io/badge/Python%20-%20%23ffde57%20?style=for-the-badge&logo=python&logoColor=%233776AB&logoSize=auto&labelColor=%23ffde57%20&color=black)|![Static Badge](https://img.shields.io/badge/MYSQL-%20white?style=for-the-badge&logo=mysql&logoColor=white&logoSize=auto&labelColor=%234479A1&color=black)|![Static Badge](https://img.shields.io/badge/React-%20black?style=for-the-badge&logo=REACT&logoColor=%23007396&logoSize=auto&labelColor=white)|![Static Badge](https://img.shields.io/badge/C-%20black?style=for-the-badge&logo=c&logoColor=%23A8B9CC&logoSize=auto&labelColor=black)
-|![Static Badge](https://img.shields.io/badge/JAVA-%20black?style=for-the-badge&logo=JAVA&logoColor=%23007396&logoSize=auto&label=Java&labelColor=%23ED8B00)|![Static Badge](https://img.shields.io/badge/InfluxDB-%20black?style=for-the-badge&logo=InfluxDB&logoColor=%2322ADF6&logoSize=auto&labelColor=black)|![Static Badge](https://img.shields.io/badge/JavaScript-%20black?style=for-the-badge&logo=Javascript&logoColor=%23F7DF1E&logoSize=auto)|![Static Badge](https://img.shields.io/badge/THREEJS-%20black?style=for-the-badge&logo=three.js&logoColor=white&logoSize=auto&labelColor=%23000000)|
+|![Static Badge](https://img.shields.io/badge/JavaScript-%20black?style=for-the-badge&logo=Javascript&logoColor=%23F7DF1E&logoSize=auto)|![Static Badge](https://img.shields.io/badge/JAVA-%20black?style=for-the-badge&logo=JAVA&logoColor=%23007396&logoSize=auto&label=Java&labelColor=%23ED8B00)|![Static Badge](https://img.shields.io/badge/InfluxDB-%20black?style=for-the-badge&logo=InfluxDB&logoColor=%2322ADF6&logoSize=auto&labelColor=black)||![Static Badge](https://img.shields.io/badge/THREEJS-%20black?style=for-the-badge&logo=three.js&logoColor=white&logoSize=auto&labelColor=%23000000)|
 
 <!--
 <p align="center">
