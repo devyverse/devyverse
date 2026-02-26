@@ -12,7 +12,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Rust-Backend-05070d?style=for-the-badge&logo=rust&logoColor=7df9ff" />
-  <img src="https://img.shields.io/badge/Axum-Framework-05070d?style=for-the-badge&logoColor=7df9ff" />
+![Static Badge](https://img.shields.io/badge/CSS-%20%23663399?style=for-the-badge&logo=css)
+
   <img src="https://img.shields.io/badge/PostgreSQL-Database-05070d?style=for-the-badge&logo=postgresql&logoColor=7df9ff" />
 </p>
 
@@ -57,7 +58,7 @@ Plus clair, plus sûr, plus intentionnel.**
 - **📘 DEV REAL eBooks** — contenus pédagogiques pour débutants (bientôt)  
 
 ---
-
+<!--
 ## 🌌 Devyverse → DEV REAL
 
 **Devyverse** = laboratoire personnel, expérimentation, identité.  
@@ -67,7 +68,7 @@ Deux pôles.
 Une seule direction : **la qualité, la clarté, la sécurité.**
 
 ---
-
+-->
 ## 🤝 Contributions
 
 Les contributions sont les bienvenues : corrections, améliorations, suggestions, discussions techniques.
