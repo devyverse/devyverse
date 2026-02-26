@@ -1,7 +1,7 @@
 <!-- ULTRA DARK • NEON FUTURISTIC • DEVYVERSE PROFILE -->
 
 <p align="center">
-  <img src="./assets/img/banner.png" alt="Devyverse Banner" width="100%" />
+  <img src="./assets/banner-devyverse.png" alt="Devyverse Banner" width="100%" />
 </p>
 
 
