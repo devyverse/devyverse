@@ -1,19 +1,19 @@
 ## Hi there 👋
 
 
-#Who are Y? 
+# Who are Y? 
 
-#what are y currently xorking on ? 
+# what are y currently xorking on ? 
 
-#what tools do you use ? 
+# what tools do you use ? 
 
-#how to reach you ? 
+# how to reach you ? 
 
-<img src="https://content.arduino.cc/website/Arduino_logo_teal.svg" height="100" align="right" />
+<img src="#" height="100" align="right" />
 
-# Arduino IDE 2.x
+# 
 
-[![Build status](https://github.com/arduino/arduino-ide/actions/workflows/build.yml/badge.svg)](https://github.com/arduino/arduino-ide/actions/workflows/build.yml)
+[![Build status](#)](https://github.com/arduino/arduino-ide/actions/workflows/build.yml)
 [![Check JavaScript status](https://github.com/arduino/arduino-ide/actions/workflows/check-javascript.yml/badge.svg)](https://github.com/arduino/arduino-ide/actions/workflows/check-javascript.yml)
 [![Test JavaScript status](https://github.com/arduino/arduino-ide/actions/workflows/test-javascript.yml/badge.svg)](https://github.com/arduino/arduino-ide/actions/workflows/test-javascript.yml)
 
