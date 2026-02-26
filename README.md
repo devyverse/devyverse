@@ -1,65 +1,116 @@
-## Hi there 👋
+<!-- DEVYVERSE OS v3.0 • QUANTUM NEON • ULTRA DARK -->
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devyverse/devyverse/main/assets/devyverse-logo.png" height="170" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=30&duration=2200&pause=600&color=7DF9FF&center=true&vCenter=true&width=750&lines=Quantum+Boot+Sequence+Initiated...;Decrypting+Neon+Kernel+3.0...;Loading+Holographic+Subsystems...;Activating+Rust+Core+Engine...;Synchronizing+Security+Protocols...;Welcome+Operator+Dévy.;Devyverse+OS+v3.0+is+now+online.">
+</p>
+
+---
+
+# 🟣 **QUANTUM DASHBOARD**
+
+**Operator:** Dévy  
+**System:** Devyverse OS v3.0  
+**Core Stack:** Rust • Axum • PostgreSQL • SeaORM  
+**Security Layer:** Argon2 • JWT • Validation Engine  
+**Rendering Mode:** Ultra‑Dark / Quantum Neon  
+**Status:** Stable • Secure • Optimized • Holographic  
+
+---
+
+# 🔵 **KERNEL LOG — REALTIME STREAM**
 
 
-# Who are Y? 
+---
 
-# what are y currently xorking on ? 
+# 🟣 **ACTIVE MODULES — HOLO GRID**
 
-# what tools do you use ? 
+- **AuthFlow Engine** — Authentication core (Axum + SeaORM + JWT)  
+- **Security Helpers** — Middlewares, rate limiting, strict validation  
+- **API Blueprint** — Modular backend architecture template  
+- **DEV REAL Docs** — Educational content (incoming)  
+- **Neon Monitor** — System metrics & diagnostics (concept)  
+- **Quantum Router** — Next‑gen API routing (concept)  
 
-# how to reach you ? 
+---
 
-<img src="#" height="100" align="right" />
+# 🔵 **SYSTEM PHILOSOPHY — QUANTUM PRINCIPLES**
 
-# 
+Devyverse OS v3.0 repose sur une architecture pensée comme un **système vivant**, évolutif, intentionnel.
 
-[![Build status](#)](https://github.com/arduino/arduino-ide/actions/workflows/build.yml)
-[![Check JavaScript status](https://github.com/arduino/arduino-ide/actions/workflows/check-javascript.yml/badge.svg)](https://github.com/arduino/arduino-ide/actions/workflows/check-javascript.yml)
-[![Test JavaScript status](https://github.com/arduino/arduino-ide/actions/workflows/test-javascript.yml/badge.svg)](https://github.com/arduino/arduino-ide/actions/workflows/test-javascript.yml)
+- **Clarity** — architecture lisible, prévisible, élégante  
+- **Security** — intégrée dès la conception, jamais en option  
+- **Stability** — fondations solides avant fonctionnalités  
+- **Intentionality** — chaque ligne de code a un but  
+- **Minimalism** — moins de bruit, plus de signal  
+- **Scalability** — croissance sans chaos  
 
-This repository contains the source code of the Arduino IDE 2.x. If you're looking for the old IDE, go to the [repository of the 1.x version](https://github.com/arduino/Arduino).
+> “Build with clarity. Secure with intention. Scale with purpose.”
 
-The Arduino IDE 2.x is a major rewrite, sharing no code with the IDE 1.x. It is based on the [Theia IDE](https://theia-ide.org/) framework and built with [Elecon](https://www.electronjs.org/). The backend operations such as compilation and uploading are offloaded to an [cli](https://github.com/arduino/arduino-cli) instance running in daemon mode. This new IDE was developed with the goal of preserving the same interface and user experience of the previous major version in order to provide a frictionless upgrade.
+---
 
-![](static/screenshot.png)
+# 🟣 **NEON BADGES — SYSTEM SIGNATURE**
 
-## Download
+<p align="center">
+  <img src="https://img.shields.io/badge/Rust-Backend-05070d?style=for-the-badge&logo=rust&logoColor=7df9ff" />
+  <img src="https://img.shields.io/badge/Axum-Framework-05070d?style=for-the-badge&logoColor=7df9ff" />
+  <img src="https://img.shields.io/badge/PostgreSQL-Database-05070d?style=for-the-badge&logo=postgresql&logoColor=7df9ff" />
+</p>
 
-You can download the latest release version and nightly builds from the [software download page ](https://www.arduino.cc/en/software).
+<p align="center">
+  <img src="https://github.com/devyverse/devyverse/actions/workflows/build.yml/badge.svg" />
+  <img src="https://github.com/devyverse/devyverse/actions/workflows/tests.yml/badge.svg" />
+  <img src="https://github.com/devyverse/devyverse/actions/workflows/security.yml/badge.svg" />
+</p>
 
-## Support
+---
 
-If you need assistance, see the [Help Center](https://support.arduino.cc/hc/en-us/categories/360002212660-Software-and-Downloads) and browse the [forum](https://forum.arduino.cc/index.php?board=150.0).
-
-## Bugs & Issues
-
-If you want to report an issue, you can submit it to the [issue tracker](https://github.com/arduino/arduino-ide/issues) of this repository.
-
-See [**the issue report guide**](docs/contributor-guide/issues.md#issue-report-guide) for instructions.
-
-### Security
-
-If you think you found a vulnerability or other security-related bug in this project, please read our
-[security policy](https://github.com/arduino/arduino-ide/security/policy) and report the bug to our Security Team 🛡️
-Thank you!
-
-e-mail contact: devyverse@gmail.com
-
-## Contributions and development
-
-Contributions are very welcome! There are several ways to participate in this project, including:
-
-- Fixing bugs
-- Beta testing
-- Translation
-
-See [**the contributor guide**](docs/CONTRIBUTING.md#contributor-guide) for more information.
-
-See the [**development guide**](docs/development.md) for a technical overview of the application and instructions for building the code.
-
-### Support the project
+# 🔵 **SYSTEM MAP — DEVYVERSE → DEV REAL**
 
 
-## License
+Deux pôles.  
+Une seule direction : **qualité, clarté, sécurité.**
 
-The code contained in this repository and the executable distributions are licensed under the terms of the GNU AGPLv3. The executable distributions contain third-party code licensed under other compatible licenses such as GPLv2, MIT and BSD-3. If you have questions about licensing please contact us at [license@devyverse](mailto:devyverse@gmail.com).
+---
+
+# 🟣 **CONTRIBUTION PORTAL**
+
+Contributions acceptées :
+
+- corrections  
+- améliorations  
+- suggestions  
+- discussions techniques  
+
+Chaque échange améliore le système.
+
+---
+
+# 🔵 **SECURITY PROTOCOL**
+
+Pour signaler une vulnérabilité :  
+**security@devreal.dev**
+
+---
+
+# 🟣 **CONTACT**
+
+**devy@devreal.dev**  
+Saint-Denis, La Réunion
+
+---
+
+# 🔵 **LICENSE**
+
+Les projets Devyverse OS v3.0 sont publiés sous licence **MIT** ou **Apache 2.0**.
+
+---
+
+<p align="center" style="color:#7df9ff;">
+  <strong>Devyverse OS v3.0 — Quantum systems online. Operator in control.</strong>
+</p>
+
+
