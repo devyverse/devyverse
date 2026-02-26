@@ -8,13 +8,15 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=30&duration=2500&pause=700&color=7DF9FF&center=true&vCenter=true&width=650&lines=Devyverse+System+Booting...;Loading+Neon+Core...;Build+with+clarity.;Secure+with+intention.;Rust+Backend+Activated.;Web+Security+%E2%9A%A1+Architecture+Online." />
 </p>
 
+# TECHNOLOGIES
 ---
-| **FRONDEND** | **BACKEND** | **DATABASE** |
-|:--------------|:-------------:|--------------:|
-| ![Static Badge](https://img.shields.io/badge/FRONDEND%20-black?style=for-the-badge&logo=css&logoColor=%23663399&logoSize=auto&label=CSS&labelColor=white&color=black)
-   | Texte centré   | Texte droit    |
-| `code`         | _italique_      | **gras**       |
-| $100           | 42             | ✅             |   
+| **FRONDEND** | **BACKEND** | **DATABASE** | **FRAMEWORKS** | **AUTRES** |
+|:--------------|:-------------:|--------------:|--------------:|--------------:|
+| ![Static Badge](https://img.shields.io/badge/CSS%20-%20%23663399?style=for-the-badge&logo=CSS&logoColor=%23663399&logoSize=auto&labelColor=white&color=black)
+
+   | Python  | MySQL    | ||
+|  ReactJS     | JAVA      | influxDB       | ||
+| ThreeJS           | Rust            |              |   ||
 <p align="center">
   <img src="https://img.shields.io/badge/Rust-Backend-05070d?style=for-the-badge&logo=rust&logoColor=7df9ff" />
  <img alt="Static Badge" src="https://img.shields.io/badge/FRONDEND%20-black?style=for-the-badge&logo=css&logoColor=%23663399&logoSize=auto&label=CSS&labelColor=white&color=black">
