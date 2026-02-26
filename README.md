@@ -13,9 +13,7 @@
 ---
 | **FRONDEND** | **BACKEND** | **DATABASE** | **FRAMEWORKS** | **AUTRES** |
 |:--------------|:-------------:|--------------:|--------------:|--------------:|
-|![Static Badge](https://img.shields.io/badge/CSS3%20-%20%23663399?style=for-the-badge&logo=css&logoColor=%23663399&logoSize=auto&labelColor=white&color=black)
-|![Static Badge](https://img.shields.io/badge/Python%20-%20%23ffde57%20?style=for-the-badge&logo=python&logoColor=%233776AB&logoSize=auto&labelColor=%23ffde57%20&color=black)
-|![Static Badge](https://img.shields.io/badge/MYSQL-%20white?style=for-the-badge&logo=mysql&logoColor=white&logoSize=auto&labelColor=%234479A1&color=black)
+|![Static Badge](https://img.shields.io/badge/CSS3%20-%20%23663399?style=for-the-badge&logo=css&logoColor=%23663399&logoSize=auto&labelColor=white&color=black)|![Static Badge](https://img.shields.io/badge/Python%20-%20%23ffde57%20?style=for-the-badge&logo=python&logoColor=%233776AB&logoSize=auto&labelColor=%23ffde57%20&color=black)|![Static Badge](https://img.shields.io/badge/MYSQL-%20white?style=for-the-badge&logo=mysql&logoColor=white&logoSize=auto&labelColor=%234479A1&color=black)
 | 12  | 42
 |ReactJS|![Static Badge](https://img.shields.io/badge/JaVA-%20black?style=for-the-badge&logo=JAVA&logoColor=%23007396&logoSize=auto&label=Java&labelColor=%23ED8B00)
      | influxDB       | ||
