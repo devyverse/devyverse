@@ -1,58 +1,14 @@
-<!-- DEVYVERSE OS v3.0 • QUANTUM NEON • ULTRA DARK -->
+<!-- ULTRA DARK • NEON FUTURISTIC • DEVYVERSE PROFILE -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/devyverse/devyverse/main/assets/devyverse-logo.png" height="170" />
+  <img src="https://raw.githubusercontent.com/devyverse/devyverse/main/assets/devyverse-logo.png" height="150" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=30&duration=2200&pause=600&color=7DF9FF&center=true&vCenter=true&width=750&lines=Quantum+Boot+Sequence+Initiated...;Decrypting+Neon+Kernel+3.0...;Loading+Holographic+Subsystems...;Activating+Rust+Core+Engine...;Synchronizing+Security+Protocols...;Welcome+Operator+Dévy.;Devyverse+OS+v3.0+is+now+online.">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=30&duration=2500&pause=700&color=7DF9FF&center=true&vCenter=true&width=650&lines=Devyverse+System+Booting...;Loading+Neon+Core...;Build+with+clarity.;Secure+with+intention.;Rust+Backend+Activated.;Web+Security+%E2%9A%A1+Architecture+Online." />
 </p>
 
 ---
-
-# 🟣 **QUANTUM DASHBOARD**
-
-**Operator:** Dévy  
-**System:** Devyverse OS v3.0  
-**Core Stack:** Rust • Axum • PostgreSQL • SeaORM  
-**Security Layer:** Argon2 • JWT • Validation Engine  
-**Rendering Mode:** Ultra‑Dark / Quantum Neon  
-**Status:** Stable • Secure • Optimized • Holographic  
-
----
-
-# 🔵 **KERNEL LOG — REALTIME STREAM**
-
-
----
-
-# 🟣 **ACTIVE MODULES — HOLO GRID**
-
-- **AuthFlow Engine** — Authentication core (Axum + SeaORM + JWT)  
-- **Security Helpers** — Middlewares, rate limiting, strict validation  
-- **API Blueprint** — Modular backend architecture template  
-- **DEV REAL Docs** — Educational content (incoming)  
-- **Neon Monitor** — System metrics & diagnostics (concept)  
-- **Quantum Router** — Next‑gen API routing (concept)  
-
----
-
-# 🔵 **SYSTEM PHILOSOPHY — QUANTUM PRINCIPLES**
-
-Devyverse OS v3.0 repose sur une architecture pensée comme un **système vivant**, évolutif, intentionnel.
-
-- **Clarity** — architecture lisible, prévisible, élégante  
-- **Security** — intégrée dès la conception, jamais en option  
-- **Stability** — fondations solides avant fonctionnalités  
-- **Intentionality** — chaque ligne de code a un but  
-- **Minimalism** — moins de bruit, plus de signal  
-- **Scalability** — croissance sans chaos  
-
-> “Build with clarity. Secure with intention. Scale with purpose.”
-
----
-
-# 🟣 **NEON BADGES — SYSTEM SIGNATURE**
 
 <p align="center">
   <img src="https://img.shields.io/badge/Rust-Backend-05070d?style=for-the-badge&logo=rust&logoColor=7df9ff" />
@@ -68,49 +24,71 @@ Devyverse OS v3.0 repose sur une architecture pensée comme un **système vivant
 
 ---
 
-# 🔵 **SYSTEM MAP — DEVYVERSE → DEV REAL**
+## ⚡ Interface d'identité
 
+Je suis Dévy, ingénieur backend spécialisé en **Rust**, **sécurité web**, et **architecture logicielle**.  
+Devyverse est mon **système personnel**, un espace où je conçois des architectures **stables**, **sécurisées**, et **durables**, avec une approche artisanale, méthodique et futuriste.
+
+Chaque projet est un **module** qui prépare l’écosystème **DEV REAL**.
+
+---
+
+## 🔮 Vision système
+
+Une architecture backend doit être :
+
+- prévisible  
+- élégante  
+- sécurisée dès la conception  
+- lisible, testée, documentée  
+- minimaliste mais puissante  
+- durable dans le temps  
+
+**Moins, mais mieux.  
+Plus clair, plus sûr, plus intentionnel.**
+
+---
+
+## 🧬 Modules actifs
+
+- **🔐 AuthFlow Rust** — module d’auth complet (Axum + SeaORM + JWT)  
+- **🛡️ Security Helpers** — middlewares, validation stricte, rate limiting  
+- **🧱 API Blueprint** — architecture backend propre et modulaire  
+- **📘 DEV REAL eBooks** — contenus pédagogiques pour débutants (bientôt)  
+
+---
+
+## 🌌 Devyverse → DEV REAL
+
+**Devyverse** = laboratoire personnel, expérimentation, identité.  
+**DEV REAL** = entreprise future, sécurité web, architecture, eBooks, outils open source.
 
 Deux pôles.  
-Une seule direction : **qualité, clarté, sécurité.**
+Une seule direction : **la qualité, la clarté, la sécurité.**
 
 ---
 
-# 🟣 **CONTRIBUTION PORTAL**
+## 🤝 Contributions
 
-Contributions acceptées :
-
-- corrections  
-- améliorations  
-- suggestions  
-- discussions techniques  
-
-Chaque échange améliore le système.
+Les contributions sont les bienvenues : corrections, améliorations, suggestions, discussions techniques.
 
 ---
 
-# 🔵 **SECURITY PROTOCOL**
+## 🛡️ Sécurité
 
 Pour signaler une vulnérabilité :  
 **security@devreal.dev**
 
 ---
 
-# 🟣 **CONTACT**
+## 📬 Contact
 
 **devy@devreal.dev**  
 Saint-Denis, La Réunion
 
 ---
 
-# 🔵 **LICENSE**
+## 📜 Licence
 
-Les projets Devyverse OS v3.0 sont publiés sous licence **MIT** ou **Apache 2.0**.
-
----
-
-<p align="center" style="color:#7df9ff;">
-  <strong>Devyverse OS v3.0 — Quantum systems online. Operator in control.</strong>
-</p>
-
+Les projets de Devyverse sont publiés sous licence **MIT** ou **Apache 2.0**, selon le dépôt.
 
