@@ -13,19 +13,11 @@
 ---
 | **FRONDEND** | **BACKEND** | **DATABASE** | **FRAMEWORKS** | **AUTRES** |
 |:--------------|:-------------:|--------------:|--------------:|--------------:|
-| ![Static Badge](https://img.shields.io/badge/CSS%20-%20%23663399?style=for-the-badge&logo=CSS&logoColor=%23663399&logoSize=auto&labelColor=white&color=black)
-
-   | Python  | MySQL    | ||
+| ![Static Badge](https://img.shields.io/badge/CSS%20-%20%23663399?style=for-the-badge&logo=CSS&logoColor=%23663399&logoSize=auto&labelColor=white&color=black) |![Static Badge](https://img.shields.io/badge/Python%20-%20%23ffde57%20?style=for-the-badge&logo=python&logoColor=%233776AB&logoSize=auto&labelColor=%23ffde57%20&color=%23ffde57)
+| MySQL    | ||
 |  ReactJS     | JAVA      | influxDB       | ||
 | ThreeJS           | Rust            |              |   ||
-<p align="center">
-  <img src="https://img.shields.io/badge/Rust-Backend-05070d?style=for-the-badge&logo=rust&logoColor=7df9ff" />
- <img alt="Static Badge" src="https://img.shields.io/badge/FRONDEND%20-black?style=for-the-badge&logo=css&logoColor=%23663399&logoSize=auto&label=CSS&labelColor=white&color=black">
 
-
-
-  <img src="https://img.shields.io/badge/PostgreSQL-Database-05070d?style=for-the-badge&logo=postgresql&logoColor=7df9ff" />
-</p>
 
 <p align="center">
   <img src="https://github.com/devyverse/devyverse/actions/workflows/build.yml/badge.svg" />
@@ -37,10 +29,10 @@
 
 ## ⚡ Interface d'identité
 
-Je suis Dévy, ingénieur backend spécialisé en **Rust**, **sécurité web**, et **architecture logicielle**.  
+Je suis Dévy, Développeur d'application spécialisé en **JAVA**, **sécurité web**, et **architecture logicielle**.  
 Devyverse est mon **système personnel**, un espace où je conçois des architectures **stables**, **sécurisées**, et **durables**, avec une approche artisanale, méthodique et futuriste.
 
-Chaque projet est un **module** qui prépare l’écosystème **DEV REAL**.
+<!--Chaque projet est un **module** qui prépare l’écosystème **DEV REAL**. -->
 
 ---
 
