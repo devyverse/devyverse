@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Nom du Commerce – Site Vitrine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Donnez une présence professionnelle à votre activité.
+Présentez vos services, vos horaires et vos coordonnées sur un site clair, rapide et optimisé pour mobile. Idéal pour attirer de nouveaux clients et être trouvé sur Google.">
+  <style>
+    :root {
+      --primary: #3B82F6;
+      --primary-dark: #1D4ED8;
+      --bg: #0f172a;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --card: #111827;
+      --accent: #22c55e;
+      --max-width: 1000px;
+      --radius: 10px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
+      background: radial-gradient(circle at top, #1f2937 0, #020617 55%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      backdrop-filter: blur(12px);
+      background: rgba(15, 23, 42, 0.85);
+      border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 0;
+    }
+
+    .logo {
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .logo-mark {
+      width: 26px;
+      height: 26px;
+      border-radius: 8px;
+      background: radial-gradient(circle at 20% 20%, #38bdf8, #6366f1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      position: relative;
+    }
+
+    .nav-links a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -4px;
+      width: 0;
+      height: 2px;
+      background: linear-gradient(to right, #38bdf8, #6366f1);
+      transition: width 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--text);
+    }
+
+    .nav-links a:hover::after {
+      width: 100%;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.7rem 1.4rem;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.4);
+      background: linear-gradient(to right, #22c55e, #16a34a);
+      color: white;
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      box-shadow: 0 10px 25px rgba(34, 197, 94, 0.35);
+      transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+      gap: 0.4rem;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 16px 35px rgba(34, 197, 94, 0.45);
+      background: linear-gradient(to right, #16a34a, #15803d);
+    }
+
+    .btn-outline {
+      background: transparent;
+      box-shadow: none;
+      border-color: rgba(148, 163, 184, 0.6);
+    }
+
+    .btn-outline:hover {
+      background: rgba(15, 23, 42, 0.9);
+      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.7);
+    }
+
+    main {
+      padding: 2.5rem 0 3rem;
+    }
+
+    section {
+      padding: 3rem 0;
+      border-bottom: 1px solid rgba(31, 41, 55, 0.8);
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+      gap: 2.5rem;
+      align-items: center;
+      padding-top: 2rem;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.2rem 0.7rem;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.5);
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin-bottom: 1rem;
+      background: rgba(15, 23, 42, 0.8);
+    }
+
+    .badge-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background: #22c55e;
+      box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.25);
+    }
+
+    h1 {
+      font-size: clamp(2.1rem, 4vw, 2.8rem);
+      line-height: 1.1;
+      margin-bottom: 1rem;
+    }
+
+    h1 span {
+      background: linear-gradient(to right, #38bdf8, #6366f1);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .hero-subtitle {
+      color: var(--muted);
+      font-size: 0.98rem;
+      max-width: 32rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    .hero-meta span {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .hero-meta span::before {
+      content: "•";
+      color: #38bdf8;
+    }
+
+    .hero-card {
+      background: radial-gradient(circle at top left, #1f2937, #020617);
+      border-radius: 18px;
+      padding: 1.5rem;
+      border: 1px solid rgba(148, 163, 184, 0.35);
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.9);
+    }
+
+    .hero-card-title {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-bottom: 0.8rem;
+    }
+
+    .hero-card-main {
+      font-size: 1.6rem;
+      font-weight: 600;
+      margin-bottom: 0.8rem;
+    }
+
+    .hero-card-main span {
+      color: #22c55e;
+      font-size: 1.1rem;
+    }
+
+    .hero-card-list {
+      list-style: none;
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+
+    .hero-card-list li {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .hero-card-list li::before {
+      content: "✓";
+      color: #22c55e;
+      font-size: 0.8rem;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.75rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(148, 163, 184, 0.4);
+      color: var(--muted);
+    }
+
+    .section-title {
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .section-subtitle {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 1.8rem;
+      max-width: 32rem;
+    }
+
+    .grid {
+      display: grid;
+      gap: 1.5rem;
+    }
+
+    .grid-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .grid-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 1.2rem;
+      border: 1px solid rgba(31, 41, 55, 0.9);
+    }
+
+    .card h3 {
+      font-size: 1rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .card p {
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: 0.7rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(148, 163, 184, 0.4);
+      color: var(--muted);
+      margin-bottom: 0.6rem;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+      gap: 1.8rem;
+      align-items: flex-start;
+    }
+
+    .contact-list {
+      list-style: none;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .contact-list li {
+      margin-bottom: 0.5rem;
+    }
+
+    .contact-list strong {
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    .map-card {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 1rem;
+      border: 1px solid rgba(31, 41, 55, 0.9);
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    footer {
+      padding: 1.5rem 0 2rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    footer span {
+      color: #38bdf8;
+    }
+
+    @media (max-width: 800px) {
+      .hero {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .contact-grid,
+      .grid-3,
+      .grid-2 {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      main {
+        padding-top: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <div class="logo">
+      <div class="logo-mark">DR</div>
+      <span>DEVREAL</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#apropos">À propos</a>
+      <a href="#avis">Avis</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="https://wa.me/262693813686" class="btn-outline btn" target="_blank" rel="noopener">
+      WhatsApp
+    </a>
+  </div>
+</header>
+
+<main class="container">
+  <!-- HERO -->
+  <section class="hero" id="accueil">
+    <div>
+      <div class="badge">
+        <span class="badge-dot"></span>
+        Site vitrine moderne pour votre commerce à La Réunion
+      </div>
+      <h1>
+        Donnez une présence <span>professionnelle</span> à votre activité.
+      </h1>
+      <p class="hero-subtitle">
+        Présentez vos services, vos horaires et vos coordonnées sur un site clair, rapide et optimisé pour mobile.
+        Idéal pour attirer de nouveaux clients et être trouvé sur Google.
+      </p>
+      <div class="hero-actions">
+        <a href="https://wa.me/262XXXXXXXXX" class="btn" target="_blank" rel="noopener">
+          Discuter sur WhatsApp
+        </a>
+        <a href="#services" class="btn btn-outline">
+          Voir les services
+        </a>
+      </div>
+      <div class="hero-meta">
+        <span>Création rapide</span>
+        <span>Adapté mobile</span>
+        <span>Bouton WhatsApp intégré</span>
+      </div>
+    </div>
+
+    <aside class="hero-card">
+      <div class="hero-card-title">Offre site vitrine</div>
+      <div class="hero-card-main">
+        À partir de 80 € <span>HT</span>
+      </div>
+      <ul class="hero-card-list">
+        <li>1 à 3 pages selon vos besoins</li>
+        <li>Horaires, services, photos, plan d’accès</li>
+        <li>Bouton contact WhatsApp ou téléphone</li>
+      </ul>
+      <div class="pill">
+        <span>📍</span> Basé à La Réunion – accompagnement local
+      </div>
+    </aside>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <h2 class="section-title">Services</h2>
+    <p class="section-subtitle">
+      Un site simple, clair et efficace pour présenter votre activité, sans complication technique.
+    </p>
+
+    <div class="grid grid-3">
+      <div class="card">
+        <div class="tag">Pack Essentiel</div>
+        <h3>Site 1 page</h3>
+        <p>
+          Présentation de votre activité, vos services principaux, vos horaires et vos coordonnées sur une page unique.
+        </p>
+      </div>
+      <div class="card">
+        <div class="tag">Pack Pro</div>
+        <h3>Site multi-pages</h3>
+        <p>
+          Pages dédiées pour vos services, vos tarifs, votre histoire, avec un design plus détaillé.
+        </p>
+      </div>
+      <div class="card">
+        <div class="tag">Options</div>
+        <h3>Personnalisation</h3>
+        <p>
+          Intégration Google Maps, bouton WhatsApp, formulaire de contact, liens vers réseaux sociaux, et plus encore.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- A PROPOS -->
+  <section id="apropos">
+    <h2 class="section-title">À propos</h2>
+    <p class="section-subtitle">
+      Un site vitrine est aujourd’hui un outil essentiel pour rassurer vos clients et présenter votre activité
+      de manière professionnelle.
+    </p>
+
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>Pour qui ?</h3>
+        <p>
+          Commerçants, artisans, indépendants, restaurateurs, coiffeurs, coachs, associations…  
+          Si vous avez une activité, vous pouvez avoir un site.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Pourquoi maintenant ?</h3>
+        <p>
+          Vos clients vous cherchent sur Google et sur leur téléphone. Un site clair et à jour vous permet
+          d’être trouvé facilement et de donner une bonne première impression.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- AVIS -->
+  <section id="avis">
+    <h2 class="section-title">Avis clients</h2>
+    <p class="section-subtitle">
+      Quelques retours de clients satisfaits après la mise en ligne de leur site vitrine.
+    </p>
+
+    <div class="grid grid-3">
+      <div class="card">
+        <h3>Snack Ti Coin</h3>
+        <p>
+          “Depuis que le site est en ligne, les clients trouvent plus facilement nos horaires et notre numéro.
+          Simple et efficace.”
+        </p>
+      </div>
+      <div class="card">
+        <h3>Coiffure Élégance</h3>
+        <p>
+          “Le site nous donne une image plus professionnelle. Les clientes nous découvrent en ligne avant de venir.”
+        </p>
+      </div>
+      <div class="card">
+        <h3>Artisan Services</h3>
+        <p>
+          “Les demandes de devis ont augmenté grâce au formulaire de contact. Très pratique.”
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <p class="section-subtitle">
+      Vous avez un projet de site vitrine ? Envoyez un message, et nous voyons ensemble ce qui est le plus adapté.
+    </p>
+
+    <div class="contact-grid">
+      <div>
+        <ul class="contact-list">
+          <li><strong>Téléphone :</strong> 06 XX XX XX XX</li>
+          <li><strong>WhatsApp :</strong> <a href="https://wa.me/262XXXXXXXXX" target="_blank" rel="noopener">Discuter maintenant</a></li>
+          <li><strong>Email :</strong> contact@votrecommerce.fr</li>
+          <li><strong>Localisation :</strong> Saint-Benoît, La Réunion</li>
+        </ul>
+        <br>
+        <a href="https://wa.me/262XXXXXXXXX" class="btn" target="_blank" rel="noopener">
+          Lancer mon projet
+        </a>
+      </div>
+
+      <div class="map-card">
+        <strong>Plan d’accès</strong>
+        <p>
+          Ajoutez ici un lien vers votre localisation Google Maps, ou intégrez une carte si besoin.
+        </p>
+        <p>
+          Exemple : <br>
+          <a href="https://maps.google.com" target="_blank" rel="noopener">Voir sur Google Maps</a>
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  © <span>Nom du Commerce</span> – Tous droits réservés.
+</footer>
+
+<script>
+  // Scroll fluide pour les liens du menu
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener('click', e => {
+      const targetId = link.getAttribute('href').slice(1);
+      const target = document.getElementById(targetId);
+      if (target) {
+        e.preventDefault();
+        window.scrollTo({
+          top: target.offsetTop - 70,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Share+Tech+Mono&display=swap");
+
+
+
+:root{
+	--primary-color:	#8A4FFF; // mauve
+	--secondary-color:	#2EC4B6; //bleu-vert
+	--white-color:		#FFFFFF; // blanc
+	--grey-color:		#333333; //gris 
+	--black-color:		#000000;// black
+}
+
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing:border-box;
+}
+html ,body{
+	margin: 0;
+	height: 100%;
+	font-family: "Share Tech Mono", monospace;
+	/*scroll-behavior: smooth;*/
+	z-index: 200;
+}
+
+body{
+	/*overflow: auto;*/
+	margin: 0;
+	background-color: #000;
+}
+
+/* nav bar */
+
+
+.logo h1{
+	font-size: 40px;
+	color: var(--primary-color);
+	text-shadow: 2px 2px 3px #FFFFFF;
+
+}
+ul{list-style: none;}
+
+a{text-decoration: none;}
+
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width:100%;
+      z-index: 1;
+	  background-color: rgba(138, 0, 0, 0.1);
+	  border: none;
+}
+
+nav ul {display: flex}
+
+nav ul li a{
+	height:40px;
+    line-height: 43px;
+    margin: 4px;
+    padding: 0px 20px;
+    display: flex;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    color:#FFFFFF;
+    letter-spacing: 5px;}
+
+nav ul li a:hover{  background-color:#1c3548;
+                    color:#FFFFFF;
+                    border-radius:40px 40px 40px 40px;
+                    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.75);
+                    transition: all ease 0.2s;}
+
+
+canvas#bg{
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 10vh;
+	width: 100%;
+	/*z-index: -9999;*/
+	/*background: url(resources/images/daikanyama.jpg) no-repeat center center;
+    background-size: cover;*/
+}
+.home{  /*Formulaire Contact*/
+	height: 100vh;
+	width: 100%;
+	padding: 50px;
+}
+section#contact{  /*Formulaire Contact*/
+	padding: 30px;
+	width: 80%;
+	border-radius: 20px;
+	position: fixed;
+	bottom: 20px;
+	left: 10%;
+	color : rgba(255, 255, 255, 1.0);
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.contact-container{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+input.input-box{
+	width: 100%;
+	position: relative;
+	margin-bottom: 25px;
+	padding-inline: 20px;
+	height: 40px;
+	border-radius: 20px;
+	outline: none;
+	background-color: rgba(255, 255, 255, 0.1);
+	color: rgba(255, 255, 255, 1.0);
+	border: 2px solid rgba(255, 255, 255, 0) ;
+}
+
+.input-box input{
+	width: 100%;
+	padding: 15px;
+	border-radius: 25px;
+	outline: none;
+	background-color: transparent;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	color: #fff;
+}
+
+.input-box i {
+	position: absolute;
+	transform: translateY(-50%);
+	right: 20px;
+	top: 50%;
+	color: #fff;
+}
+
+
+#submit-btn{
+	width: 100%;
+	padding: 10px;
+	border-radius: 25px;
+	outline: none;
+	border:0;
+	font-weight: bold;
+	cursor: pointer;
+	border:2px solid transparent;
+	transition: 0.5s;
+}
+
+#submit-btn:hover{
+	background-color: transparent;
+	border: 2px solid rgba(255, 255, 255, 0.5);
+	color: #fff;
+
+}
+
+div.left-container{
+	padding-right: 20px;
+	padding-top: 20px;
+	left: 0;
+}
+
+#message {
+	height: 300px;
+	width: 400px;
+}
+
+.para-service{
+	padding-top: 30px;
+}
+
+h2{
+	padding-top: 10px;
+}
+label.terms-service
+{
+	padding-bottom: 20px;
+
+}
+.checkbox-design{
+	border-radius: 20px;
+	color: black;
+}
+
+
+.body{
+
+
+}
+
+
+
+/*___________PRELOADER __________*/
+/*
+#preloader{
+	background: #000 url(./assets/loading.gif)no-repeat center center;
+	background-size: 15% ;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}*/
+
+.spinner > div{
+	background-color: rgba(255, 0, 32, 0.2);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	border-radius: 40px solid #ff4d00;
+}
+
+.spinner{
+	transform-style: preserve-3d;
+	transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);
+}
+
+@keyframes spinner

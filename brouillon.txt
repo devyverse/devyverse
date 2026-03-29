@@ -1,0 +1,84 @@
+brouillon 
+
+<meta attribute="value" content="information">
+    <meta name="description" content="A brief summary of the page.">
+    <meta name="keywords" content="HTML, meta, tags, web development">   
+   
+    <meta itemprop="name" content="Page Title">
+
+
+
+
+///////// footer //// 
+<!--
+
+<footer class="footer">
+	<div class="charte-graphique">
+  <h4>Charte graphique</h4>
+  <p>
+    L’identité visuelle du site repose sur une palette moderne associant 
+    <strong>mauve (#8A4FFF)</strong> et <strong>bleu‑vert (#2EC4B6)</strong>, 
+    symbolisant créativité, fraîcheur et confiance.
+  </p>
+  <p>
+    Le mauve est utilisé pour les titres et éléments interactifs, tandis que le bleu‑vert 
+    apporte équilibre et modernité dans les sections et les cartes.
+  </p>
+  <p>
+    Les couleurs neutres <strong>blanc (#FFFFFF)</strong> et 
+    <strong>gris foncé (#333333)</strong> garantissent lisibilité et sobriété.
+  </p>
+  <p>
+    La typographie privilégie des polices sans‑serif pour une présentation claire, 
+    élégante et professionnelle.
+  </p>
+</div>
+
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+<script>
+var setVanta = ()=>{
+if (window.VANTA) window.VANTA.GLOBE({
+  el: "canvas.bg",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00
+})
+}
+_strk.push(function() {
+  setVanta()
+  window.edit_page.Event.subscribe( "Page.beforeNewOneFadeIn", setVanta )
+})
+</script>
+-->
+<!--
+<script src="js/threejs/three.r134.min.js"></script>
+<script src="js/vantaglobejs/vanta.globe.min.js"></script>
+<script>
+VANTA.GLOBE({
+  el: "#your-element-selector",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00
+})
+</script>-->
+<!--
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@<version>/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@<version>/examples/jsm/"
+  }
+}
+</script>
+<script type="module" src="app.js"></script>
+-->

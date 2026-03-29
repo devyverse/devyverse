@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Porfolio | DEV REAL </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+     <meta name="description" content="DEV REAL crée des sites vitrines modernes, rapides et professionnels pour commerçants, artisans et indépendants à La Réunion.">
+  <meta http-equiv="Content-Language" content="fr">
+ <!-- <meta name="robots" content="index, follow"> -->
+  <!--<meta name="theme-color" content="#020617">-->
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="canonical" href="https://devreal.com">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="DEV REAL – Sites Vitrines Premium">
+  <meta property="og:description" content="Sites vitrines modernes, rapides et professionnels pour les commerces à La Réunion.">
+  <meta property="og:url" content="https://devreal.com">
+  <meta property="og:image" content="https://devreal.com/og-image.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="DEV REAL – Sites Vitrines Premium">
+  <meta name="twitter:description" content="Sites vitrines modernes, rapides et professionnels pour les commerces à La Réunion.">
+  <meta name="twitter:image" content="https://devreal.com/og-image.jpg">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- bloque threeJS -->
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline' https:; script-src 'self' https:;">-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script>
+  console.log(
+    "%cDEV REAL %cJavaScript OK",
+    "background: linear-gradient(to right,#7c3aed,#0ea5e9); color:white; padding:6px 10px; border-radius:6px;",
+    "color:#22c55e; font-weight:bold;"
+  );
+</script>
+
+</head>
+<body class="body">
+  <!--<div id="preloader"></div>-->
+  <div class="spinner"></div>
+   <canvas id="bg"></canvas>
+
+  <nav>
+    <a href="#" class="logo"><h1>DEVREAL</h1></a>
+    <ul class="menu">
+      <li><a href="#main">Home</a></li>
+      <li><a href="#projet">Projet</a></li>
+      <li><a href="#about">About </a></li>
+      <li><a href="./devreal/devreal1.html">DEVREAL</a></li>
+      <li><a href="#contact">Contact</a></li>      
+    </ul>   
+  </nav>
+<section class="home">
+  
+
+</section>
+<section id="contact">
+  <h1>Contact us</h1>
+    <form action="contact.php" method="GET" class="contact-container">
+      <div class="left-container">
+        <input type="text" id="fname" class ="input-box" name="fname" value="First Name"><br>
+        <input type="text" id="lname" class ="input-box"  name="lname" value="Last Name"><br>
+        <input type="text" id="email" class ="input-box"  name="email" value="Email"><br>
+        <input type="text" id="message" class ="input-box"  name="message" value="Message"><br>
+        <label class="terms-service"><input type="checkbox" class="checkbox-design"> I accept the <a href="#termsService">Terms of service</a></label><br><br><br>
+        <input type="submit" value="Submit" id="submit-btn">
+      </div>
+      <div class="right-container">
+        <div class="location">
+          <h2>Location</h2>
+          <p class="para-service">La Réunion 974</p>
+        </div>
+        <div class="other-services">
+          <h2><b>Our Top Services</b></h2>
+          <p class="para-service">Local transfers</p>
+          <p class="para-service">Airport Transfers</p>
+          <p class="para-service">Excusions and Tours<p>
+        </div>
+      </div>
+        
+    </form>
+  <!--<div class="elfsight-app-ebc12b85-d0bf-4503-b924-ddca897336e6" data-elfsight-app-lazy></div>-->
+</section>
+  
+
+</body>
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three/examples/jsm/"
+  }
+}
+</script>
+
+<!--
+<script>
+  var loarder = document.getElementById('preloader');
+
+  window.addEnventListner("loader", function(){loarder.style.display ="none";})
+
+</script>-->
+
+<script type="module" src="./app.js"></script>
+<!-- Elfsight Contact Form | Untitled Contact Form -->
+<script src="https://elfsightcdn.com/platform.js" async></script>
+<noscript>
+  <style>
+    .no-js-warning {
+      background: #7c3aed;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+  <div class="no-js-warning">
+    Ce site fonctionne même sans JavaScript, mais certaines animations peuvent être désactivées.
+  </div>
+
+</html>
