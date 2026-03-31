@@ -1,0 +1,64 @@
+_________________________________________________________
+DEV REAL PROPRIETARY LICENSE
+__________________________________________________________
+© 2024–2026 DEV REAL. All rights reserved.
+
+This license applies to all DEV REAL projects unless a specific
+project explicitly includes a different license.
+
+1. INTELLECTUAL PROPERTY
+This software, including its source code, scripts, animations, visual
+effects, models, graphic elements, design, structure, internal logic,
+algorithms, and any associated documentation, is the exclusive
+property of DEV REAL.
+
+No rights are transferred to the user except those explicitly granted
+in this license.
+
+2. RESTRICTIONS
+The user is strictly prohibited from:
+
+• copying, reproducing, or redistributing the software;  
+• modifying, altering, adapting, or creating derivative works;  
+• decompiling, disassembling, analyzing, or attempting to access the source code;  
+• bypassing, disabling, or altering technical protections;  
+• using the software for commercial purposes without written consent;  
+• integrating the software into third‑party products without a specific license.
+
+Any attempt at reverse engineering, code extraction, or security
+circumvention constitutes a severe violation of this license.
+
+3. PERMITTED USE
+Use is limited to personal, non‑commercial purposes unless explicitly
+authorized by a written agreement with DEV REAL.
+
+4. LIABILITY
+DEV REAL shall not be held liable for any direct or indirect damages
+resulting from the use of this software.
+
+5. TERMINATION
+Any violation of this license immediately terminates the right to use
+the software. DEV REAL reserves the right to pursue civil and criminal
+action.
+
+____________________________________________________________
+ THIRD‑PARTY LICENSES
+____________________________________________________________
+
+This project may include third‑party libraries distributed under
+permissive licenses allowing commercial use (e.g., MIT, Apache 2.0).
+DEV REAL complies with the terms of these licenses.
+
+Example: Three.js (MIT License)
+
+No third‑party license grants the end user any additional rights over
+the proprietary DEV REAL code.
+
+____________________________________________________________
+ GENERAL APPLICATION
+____________________________________________________________
+This license automatically applies to all DEV REAL projects, present
+and future, unless a project explicitly includes a different license
+in its repository.
+
+
