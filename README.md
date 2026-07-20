@@ -60,34 +60,16 @@ Plus clair, plus sûr, plus intentionnel.**
 - **📘 DEV REAL eBooks** — contenus pédagogiques pour débutants (bientôt)  
 
 ---
-<!--
-## 🌌 Devyverse → DEV REAL
 
-**Devyverse** = laboratoire personnel, expérimentation, identité.  
-**DEV REAL** = entreprise future, sécurité web, architecture, eBooks, outils open source.
-
-Deux pôles.  
-Une seule direction : **la qualité, la clarté, la sécurité.**
-
----
--->
 ## 🤝 Contributions
 
 Les contributions sont les bienvenues : corrections, améliorations, suggestions, discussions techniques.
 
 ---
 
-## 🛡️ Sécurité
-
-Pour signaler une vulnérabilité :  
-**security@devreal.dev**
-
----
-
 ## 📬 Contact
 
-**devy@devreal.dev**  
-Saint-Denis, La Réunion
+**devreal.pro@gmail.com**  
 
 ---
 
