@@ -1,16 +1,10 @@
-<!-- ULTRA DARK • NEON FUTURISTIC • DEVYVERSE PROFILE -->
+![my banner](./assets/bannerv3.png)
+___
+![readme typing](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=30&duration=2500&pause=700&color=7DF9FF&center=true&vCenter=true&width=650&lines=Devyverse+System+Booting...;Loading+Neon+Core...;Build+with+clarity.;Secure+with+intention.;Rust+Backend+Activated.;Web+Security+%E2%9A%A1+Architecture+Online.)
+___
 
-<p align="center">
-  <img src="./assets/bannerv3.png" alt="Devyverse Banner" width="100%" />
-</p>
 
----
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=30&duration=2500&pause=700&color=7DF9FF&center=true&vCenter=true&width=650&lines=Devyverse+System+Booting...;Loading+Neon+Core...;Build+with+clarity.;Secure+with+intention.;Rust+Backend+Activated.;Web+Security+%E2%9A%A1+Architecture+Online." />
-</p>
-
----
-## TECHNOLOGIES
+## :computer: TECHNOLOGIES
 
 | **FRONDEND** | **BACKEND** | **DATABASE** | **FRAMEWORKS** | **AUTRES** |
 |:--------------|:-------------:|--------------:|--------------:|--------------:|
@@ -18,62 +12,65 @@
 |![Static Badge](https://img.shields.io/badge/JavaScript-%20black?style=for-the-badge&logo=Javascript&logoColor=%23F7DF1E&logoSize=auto)|![Static Badge](https://img.shields.io/badge/JAVA-%20black?style=for-the-badge&logo=JAVA&logoColor=%23007396&logoSize=auto&label=Java&labelColor=%23ED8B00)|![Static Badge](https://img.shields.io/badge/InfluxDB-%20black?style=for-the-badge&logo=InfluxDB&logoColor=%2322ADF6&logoSize=auto&labelColor=black)|![Static Badge](https://img.shields.io/badge/THREEJS-%20black?style=for-the-badge&logo=three.js&logoColor=white&logoSize=auto&labelColor=%23000000)| 
 | |![Static Badge](https://img.shields.io/badge/RUST-%20black?style=for-the-badge&logo=Rust)| |
 
-<!--
-<p align="center">
-  <img src="https://github.com/devyverse/devyverse/actions/workflows/build.yml/badge.svg" />
-  <img src="https://github.com/devyverse/devyverse/actions/workflows/tests.yml/badge.svg" />
-  <img src="https://github.com/devyverse/devyverse/actions/workflows/security.yml/badge.svg" />
-</p>
 
----
--->
-## ⚡ Interface d'identité
+## :octocat: ABOUT ME
 
-Je suis Dévy, Développeur d'application spécialisé en **JAVA**, **sécurité web**, et **architecture logicielle**.  
-Devyverse est mon **système personnel**, un espace où je conçois des architectures **stables**, **sécurisées**, et **durables**, avec une approche artisanale, méthodique et futuriste.
-
-<!--Chaque projet est un **module** qui prépare l’écosystème **DEV REAL**. -->
+DEV REAL a full-stack developer specializing in web security and software architecture. My personal system is a space where I design stable, secure, and sustainable architectures using a hands-on, methodical, and forward-thinking approach.
 
 ---
 
-## 🔮 Vision système
+## :crystal_ball: VISION
 
-Une architecture backend doit être :
+Architecture should be:
 
-- prévisible  
-- élégante  
-- sécurisée dès la conception  
-- lisible, testée, documentée  
-- minimaliste mais puissante  
-- durable dans le temps  
+- predictable
+- elegant
+- secure by design
+- readable, tested, and documented
+- minimalist yet powerful
+- sustainable over time
 
-**Moins, mais mieux.  
-Plus clair, plus sûr, plus intentionnel.**
+Less, but better. Clearer, safer, more intentional.
 
 ---
 
-## 🧬 Modules actifs
+## 🧬 ACTIFS MOD.
 
-- **🔐 AuthFlow Rust** — module d’auth complet (Axum + SeaORM + JWT)  
+- **🔐 AuthFlow Rust** — Auth Mod. (Axum + SeaORM + JWT)
 - **🛡️ Security Helpers** — middlewares, validation stricte, rate limiting  
-- **🧱 API Blueprint** — architecture backend propre et modulaire  
-- **📘 DEV REAL eBooks** — contenus pédagogiques pour débutants (bientôt)  
+- **🧱 API Blueprint** — backend achectecture  clean and modulaire
 
 ---
 
-## 🤝 Contributions
+## :milky_way:  ONE GUIDING PRINCIPLE
 
-Les contributions sont les bienvenues : corrections, améliorations, suggestions, discussions techniques.
+Quality, Clarity, and Safety.
 
----
-
-## 📬 Contact
-
-**devreal.pro@gmail.com**  
+Quote  "Perfectly Imperfect"
 
 ---
 
-## 📜 Licence
+## :busts_in_silhouette: CONTRIBUTING
 
-Les projets de Devyverse sont publiés sous licence **MIT** ou **Apache 2.0**, selon le dépôt.
+Contributions are welcome: corrections, improvements, suggestions, and technical discussions.
 
+---
+
+## :shield: SECURITY
+
+Report a problem to us
+
+
+**devreal.pro@gmail.com**
+
+---
+
+## :mailbox_with_mail: CONTACT
+
+**devreal.pro@gmail.com**
+
+---
+
+## :scroll: LICENSE
+
+The projects are released under the MIT or Apache 2.0 license, depending on the repository.
